@@ -1,0 +1,17 @@
+Raspberry Pi
+
+Pi Cobbler breakout
+
+Pi Camera
+
+Polulu 5V 1A D24V50F5 regulator
+
+Polulu 12V 3A AC-DC wall adapter
+
+Polulu A4988 Stepper Motor Drvier Carrier
+
+6mm tactile switch
+
+Kysan 1124090 NEMA17 Bipolar Stepper Motor
+
+Breadboard and Wires

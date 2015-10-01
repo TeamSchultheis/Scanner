@@ -1,5 +1,52 @@
 #!/usr/bin/env python
 
+'''
+This is the main python script for the TW (Raspberry) Pi Scanner project.
+It is currently functional using the Raspberry Pi 1.
+
+The stepper motor currently in use has 200 steps. Thus with 5 increments of 40 steps, we can complete a full revolution
+and obtain five different images.
+
+Hardware Setup:
+RPi
+A9488 Stepper Driver
+5V regulator
+6mm Tactile Switch
+
+________________________Pi Connections________________________
+5V - 5V
+GND - GND
+3.3V - switch terminal 1
+GPIO 24 - switch terminal 2, parallel with 10k --> GND
+GPIO 23 - A9488 breakout STEP
+GPIO 18 - A9488 breakout DIR
+______________________________________________________________
+
+
+
+______________________A9488 Connections_______________________
+VDD - RPi 3.3V
+GND - GND
+VMOT - 12V from raw supply
+A9488 SLP - A9488 RST
+STEP - RPi 23
+DIR - RPi 18
+______________________________________________________________
+
+
+
+___________________5V Regulator Connections___________________
+VIN - 12V from raw supply
+GND - GND
+VOUT - 5V
+______________________________________________________________
+
+Dan Bogachek
+10/1/15
+'''
+
+
+
 import time
 import RPi.GPIO as GPIO
 import sys

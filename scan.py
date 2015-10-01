@@ -7,11 +7,15 @@ It is currently functional using the Raspberry Pi 1.
 The stepper motor currently in use has 200 steps. Thus with 5 increments of 40 steps, we can complete a full revolution
 and obtain five different images.
 
+Software Dependencies:
+-Picamera
+-RPIO.GPIO
+
 Hardware Setup:
-RPi
-A9488 Stepper Driver
-5V regulator
-6mm Tactile Switch
+-RPi
+-A9488 Stepper Driver
+-5V regulator
+-6mm Tactile Switch w/ 10K pull-down resistor
 
 ________________________Pi Connections________________________
 5V - 5V

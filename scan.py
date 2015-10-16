@@ -74,7 +74,7 @@ print directory
 
 while 1:
 	if GPIO.input(button):
-		advance(5, 40, run_times)
+		advance(20, 10, run_times)
 		run_times = run_times + 1	
 
 GPIO.cleanup()

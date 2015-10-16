@@ -1,17 +1,24 @@
 Raspberry Pi
 
 Pi Cobbler breakout
+https://www.adafruit.com/products/2028
 
 Pi Camera
+https://www.adafruit.com/products/1367
 
 Polulu 5V 1A D24V50F5 regulator
+https://www.pololu.com/product/2831
 
 Polulu 12V 3A AC-DC wall adapter
+https://www.pololu.com/product/1467
 
 Polulu A4988 Stepper Motor Drvier Carrier
+https://www.pololu.com/product/1182
 
 6mm tactile switch
+https://www.adafruit.com/products/367
 
 Kysan 1124090 NEMA17 Bipolar Stepper Motor
+http://www.amazon.com/Kysan-1124090-NEMA17-Stepper-Motor/dp/B00IEVE4MC
 
 Breadboard and Wires
